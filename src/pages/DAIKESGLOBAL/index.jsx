@@ -532,9 +532,9 @@ const DAIKESGLOBALPage = () => {
                       </div>
                     </div>
                     <div className="flex sm:flex-1 sm:flex-col  sm:gap-10 gap-[100px] items-start justify-start w-auto sm:w-full">
-                      <div className="flex flex-col gap-[29px] items-start justify-start w-[17%] sm:w-full">
+                      <div className="flex flex-col items-start justify-start  sm:w-full">
                         <Text
-                          className="font-medium text-white_A700"
+                          className="font-medium text-white_A700 text-center sm:w-full"
                           variant="body2"
                         >
                           Links
@@ -569,7 +569,7 @@ const DAIKESGLOBALPage = () => {
                       <div className="flex flex-col gap-[27px] items-start justify-start w-[27%] sm:w-full">
                         <a
                           href="javascript:"
-                          className="font-medium text-white_A700"
+                          className="font-medium text-white_A700 text-center sm:w-full no-underline"
                         >
                           <Text variant="body2">Support</Text>
                         </a>
@@ -602,7 +602,7 @@ const DAIKESGLOBALPage = () => {
                       </div>
                       <div className="flex flex-col gap-[29px] items-start justify-start w-[18%] sm:w-full">
                         <Text
-                          className="font-medium text-white_A700"
+                          className="font-medium text-white_A700 sm:w-full text-center"
                           variant="body2"
                         >
                           Our Works
