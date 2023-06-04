@@ -386,7 +386,7 @@ const DAIKESGLOBALPage = () => {
                 They Partner With Us
               </Text>
               <div className="flex flex-col font-inter items-center justify-start w-full">
-                <div className="flex md:flex-col flex-row md:gap-[50px] items-start justify-between w-full">
+                <div className="flex sm:flex-col md:gap-[50px] items-center justify-between w-full">
                   <div className="flex md:flex-1 flex-row gap-2.5 items-start justify-start w-[17%] md:w-full">
                     <Img
                       src="images/img_minimize.svg"
@@ -470,7 +470,7 @@ const DAIKESGLOBALPage = () => {
                 <div className="flex flex-col md:gap-10 gap-[65px] items-center justify-center w-full">
                   <div className="flex sm:flex-col  md:gap-10 items-center justify-between w-full">
                     <div className="flex md:flex-1 flex-col gap-[30px] items-start justify-start w-[35%] md:w-full">
-                      <div className="flex flex-col items-start justify-end">
+                      <div className="flex flex-col items-start">
                         <Text
                           className="mt-0.5 text-white_A700"
                           as="h5"
@@ -486,13 +486,13 @@ const DAIKESGLOBALPage = () => {
                       </div>
                       <div className="flex flex-col gap-2.5 items-start justify-start w-auto">
                         <Text
-                          className="font-normal text-white_A700_a2 w-[321px]"
+                          className="font-normal text-white_A700_a2"
                           variant="body3"
                         >
                           +234 806 6408 289, +234 813 2386 576
                         </Text>
                         <Text
-                          className="font-normal text-white_A700_a2 w-[223px]"
+                          className="font-normal text-white_A700_a2"
                           variant="body3"
                         >
                           infodaikesgloba@gmail.com
